@@ -1,0 +1,13 @@
+table {
+  margin-block: 3em;
+  padding: 2em;
+  border: none;
+  text-align: left;
+}
+table > tbody > tr:nth-child(even) {
+  background-color: hsl(var(--boston-hue), var(--boston-sat), 70%);
+}
+
+table > tbody > tr:nth-child(odd) {
+  background-color: hsl(var(--boston-hue), var(--boston-sat), 60%);
+}

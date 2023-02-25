@@ -1,0 +1,8 @@
+@import "base/variables.css";
+@import "base/buttons.css";
+@import "base/table.css";
+
+body {
+  background-color: hsl(var(--boston-hue), var(--boston-sat), 80%);
+  color: var(--txt-dark);
+}
